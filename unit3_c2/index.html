@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/maain.css">
+  </head>
+  <body>
+    <div id="navbar">
+      <h3>Sign Up</h3>
+      <a href="voucher.html"> Voucher</a>
+    </div>
+    <form onsubmit ="product(event)" id="add">
+      <input id="name" type="text" placeholder="enter name"/><br><br>
+      <input id="email" type="text" placeholder="enter email"/><br><br>
+      <input id="address" type="text"placeholder="enter address"/><br><br>
+      <input id="amount" type="number" placeholder="enter amount"/><br><br>
+      <button onclick=" add()" id="addtowallet">add to wallet</button>
+      <input id=" submit" type="submit" />
+
+    </form>
+    <!-- - name input box :- "name"
+  - email input box :- "email"
+  - Address input box :- "address"
+  - Amount input box :- "amount" 
+  - Submit button :- "submit"
+  - The user will be stored with key:- "user"
+  - The input fields should become empty after submitting -->
+  </body>
+</html>
+<script src="./scripts/main.js"></script>
